@@ -21,6 +21,20 @@ class Node:
         jarXY = math.sqrt(jarX**2 + jarY**2)
         return jarXY
 
+class ManageNode:
+    arrNode = []
+
+    def addNode(self,node):
+        self.arrNode.append(node)
+
+    def getNode(self,index):
+        return self.arrNode[index]
+
+    def jmlNode(self):
+        return len(self.arrNode)
+
+class
+
 if __name__ == '__main__':
 
 
